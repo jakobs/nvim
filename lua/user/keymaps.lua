@@ -15,3 +15,5 @@ keymap("n", "<leader>b", ":b#<cr>", opts)
 -- Nvim-tree
 keymap("n", "<leader>n", ":NvimTreeToggle<cr>", opts)
 
+-- Build
+keymap("n", "<leader>m", ":make -C build -j4<cr>", opts)
