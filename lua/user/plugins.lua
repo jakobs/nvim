@@ -48,6 +48,8 @@ return packer.startup(function(use)
   use "tpope/vim-sleuth" -- heuristically set buffer settings, like indents
 
   use "jacoborus/tender.vim" -- color profile
+  use "eddyekofo94/gruvbox-flat.nvim" -- color profile
+  use "tomasiser/vim-code-dark" -- color profile
 
   use {
     'kyazdani42/nvim-tree.lua',
