@@ -51,6 +51,7 @@ return packer.startup(function(use)
   use "eddyekofo94/gruvbox-flat.nvim" -- color profile
   use "tomasiser/vim-code-dark" -- color profile
 
+  -- treesitter
   use {
     'kyazdani42/nvim-tree.lua',
     requires = {
@@ -79,6 +80,12 @@ return packer.startup(function(use)
   use {
     'neovim/nvim-lspconfig',
     'williamboman/nvim-lsp-installer',
+  }
+
+  -- telescope
+  use {
+    'nvim-telescope/telescope.nvim',
+    requires = { {'nvim-lua/plenary.nvim'} }
   }
 
   -- Automatically set up your configuration after cloning packer.nvim
